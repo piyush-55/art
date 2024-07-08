@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    max-width: 1500px;
+}
+
+body {
+    text-transform: uppercase;
+}
+
+.text {
+    font-family: "Margarine", sans-serif;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 0px;
+    background-color: #5dcbcf;
+
+
+}
+
+.het input {
+    line-height: 25px;
+}
+
+.piyush input {
+    line-height: 25px;
+}
+
+.manu input {
+    line-height: 25px;
+}
+
+.left-text {
+    text-decoration: none;
+    margin: 0px 23px;
+    color: yellow;
+    border: 2px solid #0a0a0a;
+    border-radius: 5px;
+}
+
+.right-text {
+    text-decoration: none;
+    margin: 0px 23px;
+    color: yellow;
+    border: 2px solid #0a0a0a;
+    border-radius: 5px;
+}
+
+.me {
+    color: red;
+    font-family: "Margarine", sans-serif;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #5dcbcf;
+
+}
+
+.info h2 {
+    margin-top: 16px;
+    color:red;
+    font-weight: bolder;
+    margin-bottom: 12px;
+}
+
+.info p {
+    margin-top: 16px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.tip {
+    width: 40%;
+    font-family: "Margarine", sans-serif;
+}
+
+.info div {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-between;
+    background-color: #5dcbcf;
+
+}
+
+.p {
+    width: 34%;
+    margin-right: 14px;
+    border: 2px dashed white;
+    border-radius: 12px;
+    margin-top: 12px;
+
+}
+
+.z {
+    width: 30%;
+    margin-left: 12px;
+    border: 2px dashed white;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+.m {
+    width: 31%;
+    border: 2px dashed rgb(0, 0, 0);
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+.col {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    background-color: #5dcbcf;
+}
+
+#tarun {
+    margin: 53px 0px 19px 0px;
+    border: 2px dashed rgb(0, 0, 0);
+    border-radius: 12px;
+}
+
+#manaswi {
+    margin: 53px 0px 19px 0px;
+    border: 2px dashed white;
+    border-radius: 12px;
+}
+
+form {
+    width: 40%;
+
+}
+
+button {
+
+    line-height: 32px;
+}
