@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/ip.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
+    <title> !! art - hub !!</title>
+</head>
+
+<body>
+    <!-- page content -->
+    <div class="content">
+        <!-- header  -->
+        <header class="text">
+            <a href="#artist" class="left-text">my art</a>
+            <a href="#about" class="right-text">about</a>
+        </header>
+        <!-- photo grid  -->
+        <div class="img">
+            <div class="row" >
+                <img src="dor2.jpg" class="m" width="300px" height="600px"draggable="false" alt="doreamon">
+                <img src="dog.JPG" class="p" width="300px" height="600px" draggable="false" alt="dog">
+                <img src="heart.JPG" class="z" width="300px" height="600px" draggable="false" alt="krishna">
+            </div>
+            <div class="col" id="artist">
+                <img src="jetha.JPG" id="manaswi" width="350px" height="500px"draggable="false"  alt="jetha">
+                <img src="love.JPG" id="tarun" width="350px" height="500px" draggable="false" alt="love with boy">
+            </div>
+        </div>
+        <!-- end page  -->
+    </div>
+    <!-- footer about  -->
+    <footer class="info" id="about">
+        <h2>about</h2>
+        <img src="dil.JPG"width="170px"  draggable="false" alt="author">
+        <p class="tip">Art must be an expression of love or it is
+            nothing.The artist is a receptacle for emotions that come from all over the place: from the sky, from
+            the earth, from a scrap of paper, from a passing shape, from a spiders web.I never paint dreams or
+            nightmares. I paint my own reality.</p>
+        <p class="me" style="color: red;">Do not hesitate to contact me!</p>
+
+        <form action="actionpage.php">
+            <div class="het">
+                <label for="name"><b>name</b></label>
+                <input type="text" aria-required="true" required name="name" style="width: 100%;">
+            </div><br>
+            <div class="piyush">
+                <label for="email"><b>email</b></label>
+                <input type="text" aria-required="true" required name="email"><br>
+            </div>
+            <div class="manu">
+                <label for="Message"><b>Message</b></label>
+                <input type="text" aria-required="true" required name="Message">
+            </div>
+            <br>
+            <button type="submit" class="Send" style="width: 20%;">Send</button>
+        </form>
+        <br>
+        <p>Powered by<a href="https://en.wikipedia.org/wiki/Artist" target="_blank">Artist</a></p>
+    </footer>
+</body>
+
+</html>
